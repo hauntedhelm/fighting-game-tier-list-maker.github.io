@@ -1,14 +1,14 @@
 # Octopath Tier List Maker
 
-this is a fork from https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io which was forked from https://github.com/quetzle/smash-apps
+This is a fork from https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io which was forked from https://github.com/quetzle/smash-apps
 
-This is a tier list maker for characters in the octopath series (Still in progress). Images used are property of Square Enix.
+This is a tier list maker primarily for characters in the Octopath series, ranging from Octopath 1, 2 and Champions of the Continent. It has also been expanded with additional options like the Team Asano gamelist and the rare monsters. Images used are property of Square Enix.
 
 Please review the [contribution guide](https://github.com/octopath-tier-list-maker/octopath-tier-list-maker.github.io/blob/master/CONTRIBUTING.md) if you want to add/modify portraits or functionality.
 
 ## How to make your own Tier List Maker
 
-it took me a many hours to understand the logic of the project, but did genuinely saw a lot of potential in how it was built. That's why I would love to see more franchises going more grassroots and start their own tier list maker project, like I have for Octopath Traveler. Seeing how the original source material was lacking in the structure of the project, I shall explain the following so that everyone should be able to pick this up as quickly as possible:
+It took me a many hours to understand the logic of the project, but did genuinely saw a lot of potential in how it was built. That's why I would love to see more franchises going more grassroots and start their own tier list maker project, like I have for Octopath Traveler. Seeing how the original source material was lacking in an explanation of the structure of the project, I shall explain the following so that (hopefully) everyone should be able to pick this up as quickly as possible:
 
 The structure is as followed:
 - Folder = **editableJs**: you will be updating the content of this folder a lot, so it's pleasant to have these js files be separate from the others that you won't touch.
@@ -22,7 +22,8 @@ The structure is as followed:
 ## Small notice
 The original Fire Emblem fork also contained many more functionalities that might pique the interest of some people. This includes charts and venn diagrams for the characters. They have been ommitted from this project out of simplicity, but please consider taking a look at https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io if you want to know more.
 
-## What to add or improve:
-- More streamlined portraits for the characters following a certain format or pattern
-- Octopuffs are missing, due to the lack of sprites on both the octopath fandom wiki and spriters resources
+## Wishes to add or improve:
+- UI Bugfixes when opening windows from the sidebar
+- More filter options
+- Expand the text on the Help pop-up
 - (Optional) Moving the characters to the side of the tierlist rather than below
