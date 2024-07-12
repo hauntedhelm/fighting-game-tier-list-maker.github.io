@@ -8,7 +8,7 @@
 	cursor: pointer;
 	height: 2rem;
 	left: 2rem;
-	position: absolute;
+	position: fixed;
 	top: 1.5rem;
     width: 8vw;
     max-width: 48px;

@@ -511,4 +511,13 @@ button:active {
 	.settingsContainer {
 		min-width: 134px;
 	}
+	/*#wrapper {
+		flex-direction: row;
+	}*/
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+
 }
