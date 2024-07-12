@@ -27,7 +27,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: #1A1A1A;
+    background: #ffffff;
     content: '';
     height: 0.4rem;
     transition: all .5s;
@@ -54,11 +54,13 @@
 .nav-toggle.expanded .nav-toggle-bar::after {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    background-color: #1A1A1A;
     transform: rotate(45deg);
 }
 .nav-toggle.expanded .nav-toggle-bar::before {
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    background-color: #1A1A1A;
     transform: rotate(-45deg);
 }
 
