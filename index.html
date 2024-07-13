@@ -41,6 +41,8 @@
 			<li><button id="save">Save/Load</button></li>
 			<hr>
 			<li><button id="reset">Reset</button></li>
+			<hr>
+			<li><button id="layout">Change Layout</button><button id="revert">Revert Layout</button></li>
 		</ul>
 	</nav>
 
@@ -88,7 +90,19 @@
 			<div id="helpMenu" class="popupMenu">
 				<h1>HELP</h1>
 				<span id="close"></span>
-				<p>Source Code link: <a href="https://github.com/octopath-tier-list-maker/octopath-tier-list-maker.github.io">Click here</a></p>
+				<p>An expansive tierlist maker for Octopath 1, 2 and Champions of the Continent. (Future plans to include all Team Asano games maybe?)<br/> <br/> 
+					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down. <br/> <br/> 
+					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary. <br/> <br/> 
+					<b>Change Characters</b> allows you to add and remove characters to the selection that you want to tier. <br/>  <br/> 
+					<b>Filter</b> is a way to only feature specific characters to your selection of characters that you want to tier. <br/> <br/> 
+					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea. <br/> <br/> 
+					<b>Reset</b> removes every character from the tierlist and puts it back to the default settings. <br/> <br/> 
+					<b>Change/Revert Layout</b> is an optional button that moves the characters from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
+					<br/> 
+					This is an Open Source project and is deployed through Github Pages. <br/> 
+					Contributors are welcome and are allowed to fork the project to expand the tierlistmaker to other franchises!<br/>
+					For questions, Please ask for me in the public Octopath or Octopath CotC server.<br/> 
+					Source Code can be found here: <a href="https://github.com/octopath-tier-list-maker/octopath-tier-list-maker.github.io">Click here</a></p>
 			</div>
 			<div id="screenshotShow" class="popupMenu">
 				<h1>SAVE/LOAD</h1>
@@ -144,6 +158,14 @@
 
 		$(document).on("click", "#save", function() { // open save/load modal
 			openScreenshotModal();
+		});
+
+		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
+			document.getElementById("wrapper").style.flexDirection = "row";
+		});
+
+		$(document).on("click", "#revert", function() { // move collection of characters between below tierlist
+			document.getElementById("wrapper").style.flexDirection = "column";
 		});
 
 		$(document).on("change", ".characterCheck", function() { // add/remove characters

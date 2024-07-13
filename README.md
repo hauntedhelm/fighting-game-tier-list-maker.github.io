@@ -25,5 +25,3 @@ The original Fire Emblem fork also contained many more functionalities that migh
 ## Wishes to add or improve:
 - UI Bugfixes when opening windows from the sidebar
 - More filter options
-- Expand the text on the Help pop-up
-- (Optional) Moving the characters to the side of the tierlist rather than below
